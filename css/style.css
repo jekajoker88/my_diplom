@@ -378,7 +378,7 @@ header .center .down i{
 }
 
 .container4 .picter .pict .img .pict1{
-    margin-left:  calc(22% - 61px);;
+    margin: 0 auto;
 }
 
 .container4 .mak .end_text{
@@ -624,6 +624,7 @@ header .center .down i{
 .container6 .center_con6 .colonka .foto{
     width: 100%;
     height: 210px;
+    object-fit: cover;
 }
 
 .container6 .center_con6 .pat1 h3{
@@ -797,6 +798,9 @@ header .center .down i{
     color: #898989;
 }
 
+.footer .center_fot .end_text .icons a i:hover{
+    color: aqua;
+}
 
 
 @media (max-width: 1300px) {
@@ -806,9 +810,7 @@ header .center .down i{
 }
 
 @media (max-width: 1130px) {
-.container4 .picter .pict .img .pict1 {
-    margin-left: calc(27% - 61px);
-    }
+
     .container6 .center_con6 .pat2 .happy .time a{
         width: 23%;
     }
@@ -818,15 +820,11 @@ header .center .down i{
     header .down {
         display: none;
     }
-    .container4 .picter .pict .img .pict1 {
-        margin-left: calc(29% - 61px);
-    }
+    
 }
 
 @media (max-width: 940px) {
-    .container4 .picter .pict .img .pict1 {
-        margin-left: calc(31% - 61px);
-    }
+    
     .container6 .center_con6 .pat1 p{
         font-size: 13px;
     }
@@ -961,9 +959,7 @@ header .center .down i{
     .container4{
         height: 1200px;
     }
-    .container4 .picter .pict .img .pict1 {
-        margin-left: calc(22% - 61px);
-    }
+    
     .container6 .center_con6 .pat2 .happy .time p, .container6 .center_con6 .pat3 .happy .time p{
         font-size: 12px;
     }
@@ -1276,7 +1272,5 @@ header .center .down i{
     header .center .first_text{
         padding-bottom: 0;
     }
-    .container4 .picter .pict .img .pict1{
-        margin-left: calc(28% - 61px);
-    }
+    
 }   
